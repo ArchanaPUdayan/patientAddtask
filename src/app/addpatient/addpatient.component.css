@@ -1,0 +1,139 @@
+.in {
+
+position: absolute;
+
+left: 220px;
+
+top: 150px;
+
+width:350px
+}
+
+.la {
+
+    position: absolute;
+    
+    left: 210px;
+    
+    top: 100px;
+    
+    width:350px
+    }
+
+    .des {
+
+        position: absolute;
+        
+        left: 850px;
+        
+        top: 150px;
+        
+        width:350px
+        
+        
+        
+        }
+        .lad {
+
+            position: absolute;
+            
+            left: 850px;
+            
+            top: 100px;
+            
+            width:350px
+            
+            
+            
+            }
+
+            .can {
+
+                position: absolute;
+                
+                left: 900px;
+                
+                top: 250px;
+                
+                width:100px
+                
+                
+                
+                }
+            
+                .sav {
+            
+                    position: absolute;
+                    
+                    left: 1020px;
+                    
+                    top: 250px;
+                    
+                    width:100px
+                    }
+
+                    .ra {
+
+                        position: absolute;
+                        
+                        left: 300px;
+                        
+                        top: 200px;
+                        
+                        width:15px
+                        }
+                    
+                        .yes {
+                    
+                            position: absolute;
+                            
+                            left: 300px;
+                            
+                            top: 200px;
+                            
+                            width:60px
+                            }
+                    
+                        .no {
+                    
+                            position: absolute;
+                            
+                            left: 490px;
+                            
+                            top: 200px;
+                            
+                            width:15px
+                            }
+                            .nola {
+                    
+                                position: absolute;
+                                
+                                left: 500px;
+                                
+                                top: 200px;
+                                
+                                width:15px
+                                }
+                    
+                                .menu {
+                    
+                                    position: absolute;
+                                    
+                                    left: 280px;
+                                    
+                                    top: 240px;
+                                    
+                                    width:120px
+                                    }
+
+            
+
+
+
+
+
+
+
+
+
+

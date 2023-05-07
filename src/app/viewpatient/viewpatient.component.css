@@ -1,0 +1,32 @@
+.color{
+
+    color: red;
+    
+    }
+    
+    .color1{
+    
+    color: #008CBA;
+    
+    }
+.vie {
+
+    position: absolute;
+    
+    left: 250px;
+    
+    top: 330px;
+    
+    width:1150px
+    }
+
+    .page {
+
+        position: absolute;
+        
+        left: 1100px;
+        
+        top: 650px;
+        
+        width:1200px
+        }

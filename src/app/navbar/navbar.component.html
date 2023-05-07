@@ -1,0 +1,94 @@
+<div class="row ">
+
+<div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 bg-dark text-light p-1 ">
+  
+<h4 class="bg-dark text-light p-2 "><i class="fa-solid fa-heart-pulse"></i>Mural Context Manager Configurations<i
+  
+class="fa-regular fa-circle-question float-end mt-2" style="font: size 2px;"></i></h4>
+  
+</div>
+  
+  </div>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #141414;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.button {
+    background-color:#141414;
+    color:white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: rgb(78, 73, 73);
+    color: rgb(228, 220, 220);
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  </style>
+  
+  </head>
+  <body>
+  
+  <div class="sidebar">
+    <a href="">Location Mapping</a>
+    <a href="">Facility</a>
+    <a href="">Application</a>
+    <a href="">CM Template</a>
+    <a href="">Cockpit</a>
+    <a href="">End-point Mapping</a>
+    <a href="">Notes Template</a>
+    <a href="" >EMR</a>
+    <button id="taskbutton" type="button" (click)="taskvalue()" class="btn btn-dark">Task</button>
+    
+    <a href="">Task Set</a>
+   
+  </div>
+  
+  </body>
+  </html>
+  
+

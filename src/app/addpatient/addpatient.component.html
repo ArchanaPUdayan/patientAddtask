@@ -1,0 +1,64 @@
+<app-navbar></app-navbar>
+
+<app-task></app-task>
+<app-radiobutton></app-radiobutton>
+
+
+<div class="row g-3">
+              
+  <div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-6 col-xxl-6">
+      <label for="" class="form label la">Name</label>
+      <input name="Name" [(ngModel)]="Name" type="text" class="form-control in">
+  </div>
+
+
+<div class="col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-6 col-xxl-6">
+  <label for="" class="form label lad">Description</label>
+  <input  name="Description" [(ngModel)]="Description" type="text" class="form-control des">
+</div>
+
+<div class="form-check">
+  <input class="form-check-input ra" type="radio" name="flexRadioDefault" id="flexRadioDefault2" (click)="tog()" checked>
+  <label class="form-check-label yes " for="flexRadioDefault2">
+    YES
+  </label>
+</div>
+<select class="form-select menu" [(ngModel)]="eventdata" aria-label="Default select example" [disabled]="selectbox" >
+  
+  <option selected>none</option>
+  <option value="ADT-A03">ADT-A03</option>
+  <option value="ADT-A01">ADT-A01</option>
+  
+</select>
+
+  <div class="form-check">
+    <input class="form-check-input no" type="radio" name="flexRadioDefault" id="flexRadioDefault2" value="no" (click)="tog()" checked>
+    <label class="form-check-label nola " for="flexRadioDefault2">
+      NO
+    </label>
+  </div>
+<div class="col col-12 col-sm-12 col-md-12 col-lg-4 col-xl-6 col-xxl-6">
+  <button type="button" class="btn btn-outline-primary can">Cancel</button>
+</div>
+
+<div class="col col-12 col-sm-12 col-md-12 col-lg-4 col-xl-6 col-xxl-6">
+  <ng-container *ngIf="Name != '' && Description !='' then applied"></ng-container>
+  <ng-template #applied>
+  <button  type="button" (click)="readValue()" class="btn btn-primary sav">Save</button>
+</ng-template>
+<ng-container *ngIf="Name =='' || Description == '' then notapplied"></ng-container>
+<ng-template #notapplied>
+  <button disabled class="btn btn-secondary sav">Save</button>
+
+</ng-template>
+
+
+</div>
+<app-viewpatient></app-viewpatient>
+
+
+
+
+
+  
+
